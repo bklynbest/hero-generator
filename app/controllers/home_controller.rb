@@ -38,8 +38,6 @@ class HomeController < ApplicationController
     end
     
     @avatar = Faker::Avatar.image(@rand_num, "300x300", "bmp", @set, @bg)
-  
-    
   end
 end
 
